@@ -1,0 +1,39 @@
+type: edu
+custom_name: task1
+files:
+- name: tests/test_task.py
+  visible: false
+  text: |+
+    import unittest
+
+    from ..task import lulu
+
+
+    # todo: replace this with an actual test
+    class TestCase(unittest.TestCase):
+        def test_add(self):
+            self.assertEqual(lulu(1, 2), 2, msg="adds 1 + 2 to equal 3")
+
+  learner_created: false
+- name: tests/__init__.py
+  visible: false
+  learner_created: false
+- name: task.py
+  visible: true
+  text: |
+    # todo: replace this with an actual task
+    def lulu(a, b):
+        return a+b
+  learner_created: false
+- name: tests/quatsch.py
+  visible: false
+  text: |-
+    import statistics
+
+    print(statistics.median([35, 34, 40, 32, 38, 38, 51, 23, 40, 32, 34, 39]))
+  learner_created: false
+- name: __init__.py
+  visible: true
+  learner_created: false
+status: Failed
+record: -1

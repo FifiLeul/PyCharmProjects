@@ -1,0 +1,8 @@
+title: Python Course
+language: English
+summary: Roboter
+programming_language: Python
+environment: unittest
+content:
+- lesson1
+mode: Study
